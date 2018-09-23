@@ -84,7 +84,9 @@ function createRock(x) {
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
-     
+     document.addEventListener('keydown', function(e) {
+       
+     }
   }
 
   // We should kick of the animation of the rock around here
