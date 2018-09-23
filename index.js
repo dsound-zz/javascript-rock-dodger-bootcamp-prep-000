@@ -87,6 +87,7 @@ function createRock(x) {
      document.addEventListener('keydown', function(e) {
        if (e.which === 37) {
          var leftNumbers = rock.style.left('px', '')
+         var left = 
        }
      }
   }
