@@ -95,12 +95,12 @@ function createRock(x) {
          var right = parseInt(rightNumber, 10) }
           if (right > 400) {
             rock.style.right = `${right - 2}px` }
-          }
+ }
        
          
-       }
-     }
-  }
+       
+     
+  
 
   // We should kick of the animation of the rock around here
 
