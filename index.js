@@ -85,7 +85,9 @@ function createRock(x) {
      * we should remove the rock from the DOM
      */
      document.addEventListener('keydown', function(e) {
-       
+       if (e.which === 37) {
+         
+       }
      }
   }
 
