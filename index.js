@@ -87,10 +87,16 @@ function createRock(x) {
      document.addEventListener('keydown', function(e) {
        if (e.which === 37) {
          var leftNumbers = rock.style.left('px', '')
-         var left = parseInt(leftnumbers, 10) }
+         var left = parseInt(leftNumbers, 10) }
            if (left > 0) { 
              rock.style.left = `${left - 2}px` }
-       if (e.which === )
+       if (e.which === 39) {
+         var rightNumbers = rock.style.right('px', '')
+         var right = parseInt(rightNumber, 10) }
+          if (right > 400) {
+            rock.style.right = `${right - 2}px` }
+          }
+       
          
        }
      }
