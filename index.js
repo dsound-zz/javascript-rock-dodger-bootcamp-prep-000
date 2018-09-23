@@ -88,7 +88,7 @@ function createRock(x) {
        if (e.which === 37) {
          var leftNumbers = rock.style.left('px', '')
          var left = parseInt(leftnumbers, 10) }
-           if (rock > 0) { 
+           if (left > 0) { 
          
        }
      }
